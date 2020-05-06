@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.post-container {
+  background-color: green;
+  width: 30%;
+  height: 75vh;
+
+  padding: 8px;
+}
+
+.post-header {
+  background-color: red;
+  width: 100%;
+  height: calc(10% - 4px);
+
+  margin-bottom: 4px;
+  padding: 4px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-name-container {
+  background-color: blue;
+  width: 45%;
+  height: 100%;
+
+  padding: 4px;
+
+  display: flex;
+  align-items: center;
+}
+
+.profile-img-container {
+  background-color: yellow;
+  width: 35px;
+  height: 35px;
+
+  margin-right: 4px;
+}
+
+.name-post-date-container {
+  background-color: yellow;
+  width: calc(100% - 35px);
+  height: 35px;
+
+  padding: 2px;
+
+  font-size: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.post-author-name {
+  background-color: pink;
+  padding: 2px;
+}
+
+.post-publication-date {
+  background-color: pink;
+  padding: 2px;
+}
+
+.options-button-container {
+  background-color: blue;
+  width: 5%;
+  height: 50%;
+}
+
+.post-img-container {
+  background-color: red;
+  width: 100%;
+  height: calc(75% - 4px);
+
+  margin-bottom: 4px;
+}
+
+.post-description-container {
+  background-color: red;
+  width: 100%;
+  height: calc(7.5% - 4px);
+  
+  margin-bottom: 4px;
+  padding: 4px;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-description-sub-container {
+  background-color: blue;
+  width: 45%;
+  height: 100%;
+
+  padding: 4px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.page-name {
+  background-color: yellow;
+  width: 100%;
+  height: 50%;
+
+  margin-bottom: 2px;
+}
+
+.page-creation-date {
+  background-color: yellow;
+  width: 100%;
+  height: 50%;
+}
+
+.button-container {
+  background-color: blue;
+  width: 25%;
+  height: 100%;
+
+  padding: 4px;
+
+  display: flex;
+  align-items: center;
+}
+
+.button-text {
+  background-color: yellow;
+  width: 100%;
+
+  margin-left: 4px;
+  font-size: 12px;
+}
+
+.post-actions-container {
+  background-color: red;
+  width: 100%;
+  height: 7.5%;
+  
+  padding: 4px;
+
+  display: flex;
+}
+
+/* Selector Examples */
+
+/* Element Selector */
+div {
+  
+}
+
+/* Class Selector */
+.class-name {
+
+}
+
+/* Id Selector */
+#id-selector {
+
+}
+
+/* Group Selector */
+div, p, .class-name {
+  
+}
+
+/* Descendant Selector */
+/* You can swap out div or p for class names, ids, etc. */
+div p {
+
+}
+
+/* Direct Descendant Selector */
+/* You can swap out div or p for class names, ids, etc. */
+div > p {
+
+}
